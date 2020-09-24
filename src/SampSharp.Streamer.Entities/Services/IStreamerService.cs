@@ -298,7 +298,8 @@ namespace SampSharp.Streamer.Entities
         ///     <see cref="DynamicArea"/>
         /// </returns>
         DynamicArea CreateCube(Vector3 min, Vector3 max,
-            int virtualWorld = -1, int interior = -1, Player player = null, int priority = 0, EntityId parent = default)
+            int virtualWorld = -1, int interior = -1, Player player = null, int priority = 0,
+            EntityId parent = default);
 
         /// <summary>
         ///     Creates a new dynamic polygon in the world.
